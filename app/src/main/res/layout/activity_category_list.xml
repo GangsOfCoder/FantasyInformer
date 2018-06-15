@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gangsofcoder.fantasyinformer.ui.categories.CategoryListActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_category_cricket"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/cricket_background_list"
+            android:text="@string/category_cricket"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/size_35sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_category_football"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside"
+            app:layout_constraintVertical_weight="1" />
+
+        <Button
+            android:id="@+id/btn_category_football"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/football_background_list"
+            android:text="@string/category_football"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/size_35sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_category_basketball"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_category_cricket"
+            app:layout_constraintVertical_weight="1" />
+
+        <Button
+            android:id="@+id/btn_category_basketball"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="@dimen/size_35sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/basketball_background_list"
+            android:text="@string/category_basketball"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_category_football"
+            app:layout_constraintVertical_weight="1" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_test_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

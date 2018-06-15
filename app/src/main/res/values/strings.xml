@@ -3,4 +3,23 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_category_list">CategoryListActivity</string>
+    <string name="title_activity_event_list">EventListActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+
+    <string name="admob_app_id_old">ca-app-pub-4045142626059514~3295969804</string>
+    <string name="banner_ad_id_old">ca-app-pub-4045142626059514/3020761348</string>
+    <!-- TEST ID-->
+    <string name="banner_test_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstitial_test_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_app_test_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstial_test_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- NEW ADMOB DETAILS-->
+    <string name="admob_app_id">ca-app-pub-7784768054640338~1071795980</string>
+    <string name="banner_id">ca-app-pub-7784768054640338/7034569107</string>
+    <!-- fantasy category -->
+    <string name="category_cricket">C R I C K E T</string>
+    <string name="category_football">F O O T B A L L</string>
+    <string name="category_basketball">B A S K E T B A L L</string>
+    <string name="title_vs">VS</string>
 </resources>
